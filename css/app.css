@@ -2937,11 +2937,23 @@ main >.inner {
   top: -10%;
   left: -10%;
 }
-.social .item.::before {
-  background-color: ;
+.social .item.github::before {
+  background-color: #3b5998;
 }
-.social .item. i {
-  color: ;
+.social .item.github i {
+  color: #3b5998;
+}
+.social .item.bilibili::before {
+  background-color: #ffc0cb;
+}
+.social .item.bilibili i {
+  color: #ffc0cb;
+}
+.social .item.youtube::before {
+  background-color: ff0000;
+}
+.social .item.youtube i {
+  color: ff0000;
 }
 .social .item:focus i,
 .social .item:hover i {
